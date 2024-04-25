@@ -1,0 +1,14 @@
+{
+  "name": "bible",
+  "version": "1.0.0",
+  "description": "Bible api",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server",
+    "start": "node server.js",
+    "build": "npm install&&pm2 start server.js",
+    "rebuild":"npm install&&pm2 -f start server.js"
+  },
+  "author": "ProTech",
+  "license": "ISC"
+}
